@@ -1,0 +1,11 @@
+modules:
+  confluence:spacePage:
+    - key: poc-forge-confluence-app-space-page-hello-world
+      function: main
+      title: poc-forge-confluence-app
+      route: hello-world
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/ae3b539d-2ab1-47da-9cfc-f01fe3458afc
